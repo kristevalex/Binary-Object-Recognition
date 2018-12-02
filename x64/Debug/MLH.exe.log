@@ -1,0 +1,67 @@
+TXLib [Ver: 00173a, Rev: 105, Date: 2018-06-12 00:00:00 +0300] - ERROR: Внимание: Обнаружены утечки памяти!
+
+Detected memory leaks!
+Dumping objects ->
+{197} normal block at 0x00000000000E06A0, 2528 bytes long.
+ Data: <                > FF FF FF FF F7 FF FF FF 00 00 00 00 F7 FF FF FF 
+{182} normal block at 0x00000000000BA110, 16 bytes long.
+ Data: <  *             > D8 F8 2A 00 00 00 00 00 00 00 00 00 00 00 00 00 
+Object dump complete.
+TXLib [Ver: 00173a, Rev: 105, Date: 2018-06-12 00:00:00 +0300] - ERROR: Внимание: Обнаружены утечки памяти!
+
+Detected memory leaks!
+Dumping objects ->
+{197} normal block at 0x00000000003D06A0, 2528 bytes long.
+ Data: <                > FF FF FF FF F7 FF FF FF 00 00 00 00 F7 FF FF FF 
+{182} normal block at 0x00000000003AA0C0, 16 bytes long.
+ Data: <  +             > 08 F7 2B 00 00 00 00 00 00 00 00 00 00 00 00 00 
+Object dump complete.
+TXLib [Ver: 00173a, Rev: 105, Date: 2018-06-12 00:00:00 +0300] - ERROR: Внимание: Обнаружены утечки памяти!
+
+Detected memory leaks!
+Dumping objects ->
+{198} normal block at 0x00000000002EA7E0, 3792 bytes long.
+ Data: <                > FF FF FF FF CF FF FF FF FF FF FF FF D0 FF FF FF 
+{182} normal block at 0x00000000002DA070, 16 bytes long.
+ Data: <                > A8 F8 16 00 00 00 00 00 00 00 00 00 00 00 00 00 
+Object dump complete.
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Алексей\source\repos\MLH\x64\Debug\MLH.exe, файл: c:\users\алексей\source\repos\mlh\mlh\image.hpp, строка: 32, функция: void __cdecl Image::load(const class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "ifstr.is_open()".
+
+#1: TXLib [Ver: 00173a, Rev: 105, Date: 2018-06-12 00:00:00 +0300], Instance: 0x000000013F555048 (64-bit), Flags: CMdRe0, Thread: 0x265C (Main), GetLastError(): 123 (Синтаксическая ошибка в имени файла, имени папки или метке тома), errno: 22 (Invalid argument), _doserrno: 123 (Unknown error)
+--------------------------------------------------
+Стек вызовов:
+
+# 7 0x0000000076FC59CD in C:\Windows\system32\kernel32.dll: BaseThreadInitThunk()
+# 8 0x000000007722385D in C:\Windows\SYSTEM32\ntdll.dll: RtlUserThreadStart()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 105, Date: 2018-06-12 00:00:00 +0300]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\алексей\source\repos\mlh\include\txlib.h
+Compiled:	Dec  1 2018 13:47:44, MSVS 1915, std=199711L, MSVC Runtime, 64-bit, DEBUG
+Started:	Dec  1 2018 13:47:51
+
+Run file:	C:\Users\Алексей\source\repos\MLH\x64\Debug\MLH.exe
+Directory:	C:\Users\Алексей\source\repos\MLH\MLH
+
+--------------------------------------------------
+TXLib [Ver: 00173a, Rev: 105, Date: 2018-06-12 00:00:00 +0300] - ERROR: Внимание: Обнаружены утечки памяти!
+
+Detected memory leaks!
+Dumping objects ->
+{186} normal block at 0x0000000000260250, 48 bytes long.
+ Data: <. . / / r e s / > 2E 00 2E 00 2F 00 2F 00 72 00 65 00 73 00 2F 00 
+{185} normal block at 0x000000000025A160, 16 bytes long.
+ Data: <x               > 78 FB 15 00 00 00 00 00 00 00 00 00 00 00 00 00 
+Object dump complete.

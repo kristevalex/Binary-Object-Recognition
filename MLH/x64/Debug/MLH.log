@@ -1,0 +1,7 @@
+﻿  main.cpp
+c:\users\алексей\source\repos\mlh\mlh\main.cpp(63): warning C4244: +=: преобразование "long double" в "__int64", возможна потеря данных
+c:\users\алексей\source\repos\mlh\mlh\main.cpp(68): warning C4305: инициализация: усечение из "__int64" в "long double"
+c:\users\алексей\source\repos\mlh\mlh\main.cpp(79): warning C4305: инициализация: усечение из "__int64" в "long double"
+c:\users\алексей\source\repos\mlh\mlh\main.cpp(4): warning C4100: argv: неиспользованный формальный параметр
+c:\users\алексей\source\repos\mlh\mlh\main.cpp(4): warning C4100: argc: неиспользованный формальный параметр
+  MLH.vcxproj -> C:\Users\Алексей\source\repos\MLH\x64\Debug\MLH.exe
